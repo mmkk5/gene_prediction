@@ -1,0 +1,13 @@
+#作業前にブランチ作成!
+git checkout -b branch
+vim hoge.txt
+git add hoge.txt
+git commit -m
+
+git push origin branch
+
+#github上でmerge, branch削除
+
+#ローカルで
+git pull
+git branch -d branch
